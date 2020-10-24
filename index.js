@@ -7,7 +7,7 @@ app = express()
 const oauth2Client = new OAuth2(
      "ClientId", // ClientID
      "Client Secret", // Client Secret
-     "https://developers.google.com/oauthplayground" // Redirect URL
+     "Redirect Url" // Redirect URL
 );
 
 const smtpTransport = nodemailer.createTransport({
